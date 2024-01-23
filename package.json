@@ -7,6 +7,8 @@
     "web": "expo start --web",
     "eject": "expo eject"
   },
+
+  
   "dependencies": {
     "expo": "^35.0.0",
     "firebase": "^7.2.2",
@@ -31,5 +33,19 @@
     "babel-preset-expo": "^7.1.0",
     "prettier": "^1.19.1"
   },
-  "private": true
+  "private": true,
+
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Android",
+      "request": "launch",
+      "type": "reactnative",
+      "platform": "android",
+      "sourceMaps": true,
+      "outDir": "${workspaceFolder}/.vscode/.react"
+    }
+  ]
 }
+
+
